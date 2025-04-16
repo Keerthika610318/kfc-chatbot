@@ -18,9 +18,6 @@ This is an interactive Streamlit-based chatbot for KFC, built using LangChain an
 - Pandas: For data manipulation and order summary generation.
 - Tenacity: For reliable retry handling with exponential backoff.
 
-## Project Structure
-. ├── kfc_chatbot.py # Main chatbot code ├── kfc_menu.csv # Menu file (Products, price, Description) ├── order_summary.csv # Saved order (generated after order is placed)
-
 
 ## Setup Instructions
 
@@ -54,18 +51,14 @@ your url is: https://better-horses-stare.loca.lt
 
 How to Use It:
   1. Open the External URL in your browser:
-
   2. https://better-horses-stare.loca.lt
-
   3. Or copy the IP Address from the External URL, for example:
      http://34.83.44.218:8501
      Paste this in your browser if the LocalTunnel link doesn’t work.
 
 
 7.## Example Queries
-
 Just type your queries in natural language, such as:
-
 - Show me the menu  
 - How much is the Zinger Burger?  
 - What’s in a Krusher?  
