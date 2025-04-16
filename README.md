@@ -1,4 +1,4 @@
-# KFC Chatbot — Your Friendly KFC Ordering Assistant
+# KFC Chatbot — Ordering Assistant
 
 This is an interactive Streamlit-based chatbot for KFC, built using LangChain and Azure OpenAI. The chatbot helps users explore the menu, inquire about prices and descriptions, and even place an order.
 
@@ -37,10 +37,10 @@ azure_endpoint = "YOUR_AZURE_ENDPOINT"
    - products
    - description
 
-5. ##Run the App
+4. Run the App
       streamlit run kfc_chatbot.py
 
-6. Accessing the App
+5. Accessing the App
      You can now view your Streamlit app in your browser.
 
   Local URL: http://localhost:8501
@@ -57,7 +57,7 @@ How to Use It:
      Paste this in your browser if the LocalTunnel link doesn’t work.
 
 
-7. Example Queries
+6. Example Queries
 Just type your queries in natural language, such as:
 - Show me the menu  
 - How much is the Zinger Burger?  
