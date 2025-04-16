@@ -1,6 +1,6 @@
 # KFC Chatbot — Your Friendly KFC Ordering Assistant
 
-This is an interactive Streamlit-based chatbot for KFC, built using LangChain and Azure OpenAI. The chatbot helps users explore the menu, inquire about prices and descriptions, and even place an order — all powered by a local CSV menu file.
+This is an interactive Streamlit-based chatbot for KFC, built using LangChain and Azure OpenAI. The chatbot helps users explore the menu, inquire about prices and descriptions, and even place an order.
 
 ## Features
 
@@ -21,17 +21,17 @@ This is an interactive Streamlit-based chatbot for KFC, built using LangChain an
 
 ## Setup Instructions
 
-1. ##Install Dependencies
+1. Install Dependencies
 
 ```bash
 pip install streamlit langchain openai pandas tenacity
 ```
-2. ##Update Credentials
+2. Update Credentials
 openai.api_key = "YOUR_AZURE_API_KEY"
 deployment_name = "YOUR_DEPLOYMENT_NAME"
 azure_endpoint = "YOUR_AZURE_ENDPOINT"
 
-3. ##Add Your Menu
+3. Add Your Menu
    Ensure kfc_menu.csv is in the same directory with columns:
    - price
    - products
@@ -40,7 +40,7 @@ azure_endpoint = "YOUR_AZURE_ENDPOINT"
 5. ##Run the App
       streamlit run kfc_chatbot.py
 
-6. ##Accessing the App
+6. Accessing the App
      You can now view your Streamlit app in your browser.
 
   Local URL: http://localhost:8501
@@ -57,7 +57,7 @@ How to Use It:
      Paste this in your browser if the LocalTunnel link doesn’t work.
 
 
-7.## Example Queries
+7. Example Queries
 Just type your queries in natural language, such as:
 - Show me the menu  
 - How much is the Zinger Burger?  
