@@ -27,10 +27,11 @@ This is an interactive Streamlit-based chatbot for KFC, built using LangChain an
 pip install streamlit langchain openai pandas tenacity
 ```
 2. Update Credentials
+```bash
 openai.api_key = "YOUR_AZURE_API_KEY"
 deployment_name = "YOUR_DEPLOYMENT_NAME"
 azure_endpoint = "YOUR_AZURE_ENDPOINT"
-
+```
 3. Add Your Menu
    Ensure kfc_menu.csv is in the same directory with columns:
    - price
@@ -43,16 +44,16 @@ azure_endpoint = "YOUR_AZURE_ENDPOINT"
 5. Accessing the App
      You can now view your Streamlit app in your browser.
 
-  Local URL: http://localhost:8501
-  Network URL: http://172.28.0.12:8501
-  External URL: http://34.83.44.218:8501
+     Local URL: http://localhost:8501
+     Network URL: http://172.28.0.12:8501
+     External URL: http://34.83.44.218:8501
 
-your url is: https://better-horses-stare.loca.lt
+      your url is: https://better-horses-stare.loca.lt
 
-How to Use It:
-  1. Open the External URL in your browser:
-  2. https://better-horses-stare.loca.lt
-  3. Or copy the IP Address from the External URL, for example:
+   How to Use It:
+     1. Open the External URL in your browser:
+     2. https://better-horses-stare.loca.lt
+     3. Or copy the IP Address from the External URL, for example:
      http://34.83.44.218:8501
      Paste this in your browser if the LocalTunnel link doesn’t work.
 
